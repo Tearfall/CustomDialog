@@ -13,16 +13,65 @@
         android:gravity="center"
         android:layout_margin="10dp"/>
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/taskName"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:layout_gravity="center"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:background="@drawable/edit_text_border"
-        android:hint="Deck Name"
+        android:hint="TASK Name"
         android:layout_margin="10dp"
         />
+    <EditText
+        android:id="@+id/taskDate"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="DATE"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/taskStartTime"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="START TIME"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/taskEndTime"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="END TIME"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/taskNote"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="NOTE"
+        android:layout_margin="10dp"
+        />
+
+
 
     <LinearLayout
         android:layout_width="wrap_content"
